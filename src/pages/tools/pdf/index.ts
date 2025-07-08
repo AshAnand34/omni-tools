@@ -1,3 +1,4 @@
+import { tool as pdfSignPdf } from './sign-pdf/meta';
 import { tool as pdfPdfToPng } from './pdf-to-png/meta';
 import { tool as pdfRotatePdf } from './rotate-pdf/meta';
 import { meta as splitPdfMeta } from './split-pdf/meta';
@@ -14,5 +15,6 @@ export const pdfTools: DefinedTool[] = [
   protectPdfTool,
   mergePdf,
   pdfToEpub,
-  pdfPdfToPng
+  pdfPdfToPng,
+  pdfSignPdf
 ];
